@@ -16,3 +16,7 @@ books.
   just build kleinere_novellen
 #+end_src
 
+* Known issues
+
+The DTBook Sample Book currently does not build, see
+https://github.com/daisy/pipeline-modules/issues/129
