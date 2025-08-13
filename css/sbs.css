@@ -1,3 +1,9 @@
+/* Based on bana.css */
+
+/* See
+   https://daisy.github.io/ebraille/best-practices/styling/index.html
+   for inspiration */
+
 * {
    font-weight: normal;
    line-height: 1rem;
