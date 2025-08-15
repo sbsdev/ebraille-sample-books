@@ -40,7 +40,7 @@
       <docauthor>Johann Wolfgang von Goethe</docauthor>
       <level1 class="titlepage">
         <level2>
-          <p class="sourcePublisher">Der Text der vorliegenden Ausgabe wurde unverändert dem <a href="https://www.gutenberg.org/">Projekt Gutenberg</a> entnommen.</p>
+          <p class="sourcePublisher">Der Text der vorliegenden Ausgabe wurde unverändert dem <a href="https://www.gutenberg.org/" external="true">Projekt Gutenberg</a> entnommen.</p>
         </level2>
       </level1>
     </frontmatter>
@@ -51,7 +51,7 @@
         <pagenum id="page-2" page="normal">2</pagenum>
         <pagenum id="page-3" page="normal">3</pagenum>
         <p> In jenen unglücklichen Tagen, welche für Deutschland, für Europa, ja für die übrige Welt die traurigsten Folgen hatten, als das Heer der Franken durch eine übelverwahrte Lücke in unser Vaterland einbrach, verließ eine edle Familie ihre Besitzungen in jenen Gegenden und entfloh über den Rhein<noteref class="footnote" idref="#fn1">1</noteref>, um den Bedrängnissen zu entgehen, womit alle ausgezeichneten Personen bedrohet waren, denen man zum Verbrechen machte, daß sie sich ihrer Väter mit Freuden und Ehren erinnerten, und mancher Vorteile genossen, die ein wohldenkender Vater seinen Kindern und Nachkommen so gern zu verschaffen wünschte.</p>
-	<note class="footnote" id="fn1">Dies ist eine Fussnote zum Fluss Rhein</note>
+	<note class="footnote" id="fn1"><p>Dies ist eine Fussnote zum Fluss Rhein</p></note>
         <p>Die Baronesse von C., eine Witwe von mittlern Jahren, erwies sich auch jetzt auf dieser Flucht, wie sonst zu Hause, zum Troste ihrer Kinder, Verwandten und Freunde, entschlossen und tätig. In einer weiten Sphäre erzogen und durch mancherlei Schicksale ausgebildet war sie als eine treffliche Hausmutter bekannt, und jede Art von Geschäft erschien ihrem durchdringenden Geiste willkommen. Sie wünschte vielen zu dienen, und ihre ausgebreitete Bekanntschaft setzte sie in Stand es zu tun. Nun mußte sie sich unerwartet als Führerin einer kleinen Karawane darstellen, und verstand auch diese zu leiten, für sie zu sorgen und den guten Humor, wie er sich zeigte, in ihrem Kreise, auch mitten unter Bangigkeit und Not, zu unterhalten. Und wirklich stellte sich bei unsern Flüchtlingen die gute Laune nicht selten ein; <pagenum id="page-4" page="normal">4</pagenum> denn überraschende Vorfälle, neue Verhältnisse gaben den aufgespannten Gemütern manchen Stoff zu Scherz und Lachen.</p>
         <p>Bei der übereilten Flucht war das Betragen eines jeden charakteristisch und auffallend. Das eine ließ sich durch eine falsche Furcht, durch ein unzeitiges Schrecken hinreißen; das andere gab einer unnötigen Sorge Raum, und alles, was dieser zu viel, jener zu wenig tat, jeder Fall wo sich Schwäche und Nachgiebigkeit oder Übereilung zeigte, gab in der Folge Gelegenheit sich wechselseitig zu plagen und aufzuziehen, so daß dadurch diese traurigen Zustände lustiger wurden, als eine vorsätzliche Lustreise ehemals hatte werden können.</p>
         <p>Denn wie wir manchmal in der Komödie eine Zeitlang, ohne über die absichtlichen Possen zu lachen, ernsthaft zuschauen können, dagegen aber sogleich ein lautes Gelächter entsteht, wenn in der Tragödie etwas Unschickliches vorkommt: so wird auch ein Unglück in der wirklichen Welt, das die Menschen aus ihrer Fassung bringt, gewöhnlich von lächerlichen, oft auf der Stelle, gewiß aber hinterdrein, belachten Umständen begleitet sein.</p>
