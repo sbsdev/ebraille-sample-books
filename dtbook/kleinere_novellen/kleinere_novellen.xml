@@ -43,11 +43,20 @@
           <p class="sourcePublisher">Der Text der vorliegenden Ausgabe wurde unverändert dem <a href="https://www.gutenberg.org/" external="true">Projekt Gutenberg</a> entnommen.</p>
         </level2>
       </level1>
+      <level1 class="print_toc">
+	<h1 class="print_toc">Table of Contents</h1>
+	<list type="ul">
+	  <li><lic class="entry"><a href="#unterhaltungen_deutscher_ausgewanderten">Unterhaltungen Deutscher Ausgewanderten</a></lic><lic class="pagenum">1</lic></li>
+	  <li><lic class="entry"><a href="#die_guten_weiber">Die guten Weiber</a></lic><lic class="pagenum">156</lic></li>
+	  <li><lic class="entry"><a href="#der_hausball">Der Hausball</a></lic><lic class="pagenum">230</lic></li>
+	  <li><lic class="entry"><a href="#megaprazons">Reise der Söhne Megaprazons</a></lic><lic class="pagenum">240</lic></li>
+	</list>
+      </level1>
     </frontmatter>
     <bodymatter>
       <level1>
         <pagenum id="page-1" page="normal">1</pagenum>
-        <h1>Unterhaltungen Deutscher Ausgewanderten</h1>
+        <h1><a id="unterhaltungen_deutscher_ausgewanderten">Unterhaltungen Deutscher Ausgewanderten</a></h1>
         <pagenum id="page-2" page="normal">2</pagenum>
         <pagenum id="page-3" page="normal">3</pagenum>
         <p> In jenen unglücklichen Tagen, welche für Deutschland, für Europa, ja für die übrige Welt die traurigsten Folgen hatten, als das Heer der Franken durch eine übelverwahrte Lücke in unser Vaterland einbrach, verließ eine edle Familie ihre Besitzungen in jenen Gegenden und entfloh über den Rhein<noteref class="footnote" idref="#fn1">1</noteref>, um den Bedrängnissen zu entgehen, womit alle ausgezeichneten Personen bedrohet waren, denen man zum Verbrechen machte, daß sie sich ihrer Väter mit Freuden und Ehren erinnerten, und mancher Vorteile genossen, die ein wohldenkender Vater seinen Kindern und Nachkommen so gern zu verschaffen wünschte.</p>
@@ -425,7 +434,7 @@
         <p>Man entließ den Alten gern, um so mehr, da jedes von <pagenum id="page-112" page="normal">112</pagenum> Friedrichen Neuigkeiten und Nachrichten von dem, was indessen geschehen war, einzuziehen hoffte.</p>
       </level1>
       <level1>
-        <h1>Die guten Weiber</h1>
+        <h1><a id="die_guten_weiber">Die guten Weiber</a></h1>
         <pagenum id="page-156" page="normal">156</pagenum>
         <pagenum id="page-157" page="normal">157</pagenum>
         <p> Henriette war mit Armidoro schon einige Zeit in dem Garten auf und ab spaziert, in welchem sich der Sommerklub zu versammeln pflegte. Oft fanden sich diese beiden zuerst ein; sie hegten gegeneinander die heiterste Neigung und nährten bei einem reinen gesitteten Umgang die angenehmsten Hoffnungen einer künftigen dauerhaften Verbindung.</p>
@@ -591,7 +600,7 @@
       </level1>
       <level1>
         <pagenum id="page-230" page="normal">230</pagenum>
-        <h1>Der Hausball </h1>
+        <h1><a id="der_hausball">Der Hausball</a></h1>
         <pagenum id="page-231" page="normal">231</pagenum>
         <level2>
           <h2>Eine deutsche Nationalgeschichte</h2>
@@ -615,7 +624,7 @@
         <pagenum id="page-239" page="normal">239</pagenum>
       </level1>
       <level1>
-        <h1>Reise der Söhne Megaprazons</h1>
+        <h1><a id="megaprazons">Reise der Söhne Megaprazons</a></h1>
         <pagenum id="page-240" page="normal">240</pagenum>
         <level2>
           <pagenum id="page-241" page="normal">241</pagenum>
