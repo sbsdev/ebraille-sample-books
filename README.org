@@ -14,9 +14,11 @@ books.
 
 #+begin_src shell
   just build kleinere_novellen
+  just build defaultbook
 #+end_src
 
-* Known issues
+* Reading
 
-The DTBook Sample Book currently does not build, see
-https://github.com/daisy/pipeline-modules/issues/129
+#+begin_src shell
+  /opt/Thorium/thorium --no-sandbox
+#+end_src
