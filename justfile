@@ -11,7 +11,11 @@ zip title:
 
 # Build eBraille for given title
 build title:
-	{{DP2}} dtbook-to-ebraille --source {{title}}.xml --data zip/{{title}}.zip --epub-package true --braille-code {{BRAILLE_CODE}} --include-original-text true --validation off --output ebraille --attach-stylesheet sbs.css
+	{{DP2}} dtbook-to-ebraille --source {{title}}.xml --data zip/{{title}}.zip --epub-package true --braille-code {{BRAILLE_CODE}} --include-original-text false --validation off --output ebraille --attach-stylesheet sbs.css
+
+# Build multi-rendition eBraille for given title
+build-multi-rendition title:
+	{{DP2}} dtbook-to-ebraille --source {{title}}.xml --data zip/{{title}}.zip --epub-package true --braille-code {{BRAILLE_CODE}} --include-original-text true --validation off --output ebraille-multi-rendition --attach-stylesheet sbs.css
 
 # Filter contraction hints of given xml
 filter xml:
