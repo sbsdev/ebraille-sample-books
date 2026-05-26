@@ -13,8 +13,7 @@ books.
 * Building
 
 #+begin_src shell
-  just build kleinere_novellen
-  just build defaultbook
+  make
 #+end_src
 
 * Reading
