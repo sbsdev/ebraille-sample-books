@@ -506,6 +506,15 @@
 	  </imggroup>
 	</p>
         <p>Dies ist eine <prodnote render="required">Anmerkung</prodnote> des Übertragers.</p>
+        <p>
+          <imggroup>
+            <img id="dreieck" src="dreieck.svg" alt="Dreieck mit eingezeichnetem rechten Winkel" />
+            <caption imgref="dreieck">Dreieck</caption>
+            <prodnote imgref="dreieck" render="required">
+              <p>Ein Dreieck mit eingezeichnetem rechten Winkel an der oberen rechten Ecke.</p>
+            </prodnote>
+          </imggroup>
+        </p>
       </level1>
 
       <level1>

@@ -24,8 +24,8 @@ all: $(SINGLE) $(MULTI)
 dtbook/%_filtered.xml: dtbook/$$*_original.xml
 	java -jar $(SAXON) -xsl:$(FILTER_XSL) -s:$< > $@
 
-# Bundle DTBook XML and stylesheet into zip for dp2
-zip/%.zip: dtbook/$$*/$$*.xml css/sbs.css
+# Bundle DTBook XML, images and stylesheet into zip for dp2
+zip/%.zip: css/sbs.css $$(wildcard dtbook/$$*/*)
 	zip --junk-paths $@ $^
 
 # Single-rendition eBraille
