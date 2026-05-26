@@ -5,5 +5,6 @@ dtbook/weltklasse_gotthard/
 ebraille/
 ebraille-multi-rendition/
 
-# Intermediate generated file from `just filter`
+# Intermediate generated files from `just filter` and `just zip`
 dtbook/*/*_filtered.xml
+dtbook/*/*.zip
