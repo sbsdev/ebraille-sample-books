@@ -49,7 +49,7 @@ To read/preview the generated `.epub` or `.ebrl` files:
 1. `just zip <title>` bundles the DTBook XML with `css/sbs.css` into `zip/<title>.zip`
 2. `just build <title>` calls `/opt/daisy-pipeline2-cli/dp2 dtbook-to-ebraille` with the zip as data, applying the SBS stylesheet and generating German grade 2 braille via LibLouis (`de-g2.ctb`)
 
-**Output directories:**
+**Output directories** (build artifacts, not committed):
 - `ebraille/result/` — single-rendition `.epub`/`.ebrl` files
 - `ebraille-multi-rendition/result/` — multi-rendition files (braille + original text side by side)
 
