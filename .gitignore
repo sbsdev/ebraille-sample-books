@@ -1,0 +1,9 @@
+# Copyrighted work — do not distribute
+dtbook/weltklasse_gotthard/
+
+# Build outputs
+ebraille/
+ebraille-multi-rendition/
+
+# Intermediate generated file from `just filter`
+dtbook/*/*_filtered.xml

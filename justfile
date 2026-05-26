@@ -19,6 +19,6 @@ build-multi-rendition title:
 
 # Filter contraction hints of given xml
 filter xml:
-	java -jar /usr/share/java/Saxon-HE.jar -xsl:/home/eglic/src/dp2/resources/xslt/filterBrlContractionhints.xsl -s:{{ without_extension(xml) }}.original.{{ extension(xml) }} > _filtered.
+	java -jar /usr/share/java/Saxon-HE.jar -xsl:/home/eglic/src/dp2/resources/xslt/filterBrlContractionhints.xsl -s:{{ without_extension(xml) }}_original.{{ extension(xml) }} > {{ without_extension(xml) }}_filtered.{{ extension(xml) }}
 
 
