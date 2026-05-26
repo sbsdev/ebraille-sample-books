@@ -13,27 +13,23 @@ Sample books:
 
 ## Build Commands
 
-The project uses `just` as the task runner. Run `just help` to list all recipes.
+The project uses `make`. The default target builds all titles.
 
 ```sh
-# Create zip package for a title (required before building)
-just zip <title>
-
-# Build single-rendition eBraille (braille only)
-just build <title>
-
-# Build multi-rendition eBraille (braille + original text)
-just build-multi-rendition <title>
-
-# Filter braille contraction hints from a DTBook XML
-# Reads dtbook/<name>/<name>_original.xml, writes dtbook/<name>/<name>_filtered.xml
-just filter <xml>
+make               # build everything (zip → single + multi rendition)
+make clean         # remove all zip and output files
 ```
 
-Common build targets:
+Individual targets:
 ```sh
-just build kleinere_novellen
-just build defaultbook
+make ebraille/result/kleinere_novellen.ebrl
+make ebraille-multi-rendition/result/defaultbook.ebrl
+make zip/kleinere_novellen.zip
+```
+
+To filter braille contraction hints (preparatory step — output needs manual review before building):
+```sh
+make dtbook/kleinere_novellen/kleinere_novellen_filtered.xml
 ```
 
 To read/preview the generated `.epub` or `.ebrl` files:
