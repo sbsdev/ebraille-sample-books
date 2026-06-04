@@ -4,7 +4,7 @@ FILTER_XSL := /home/eglic/src/dp2/resources/xslt/filterBrlContractionhints.xsl
 BRAILLE_CODE := (liblouis-table:"de-g2.ctb")
 
 # Add weltklasse_gotthard here locally if you have the source (copyrighted, not in git)
-TITLES := defaultbook kleinere_novellen greatpainters
+TITLES := defaultbook kleinere_novellen greatpainters atthezoo
 
 SINGLE := $(patsubst %,ebraille/result/%.ebrl,$(TITLES))
 MULTI  := $(patsubst %,ebraille-multi-rendition/result/%.ebrl,$(TITLES))
@@ -68,6 +68,30 @@ ebraille/result/greatpainters.ebrl: zip/greatpainters.zip
 ebraille-multi-rendition/result/greatpainters.ebrl: zip/greatpainters.zip
 	$(DP2) dtbook-to-ebraille \
 	  --source greatpainters.xml \
+	  --data $< \
+	  --epub-package true \
+	  --braille-code '(liblouis-table:"en-ueb-g2.ctb")' \
+	  --include-original-text true \
+	  --validation off \
+	  --output ebraille-multi-rendition \
+	  --attach-stylesheet sbs.css
+
+# Single-rendition english eBraille
+ebraille/result/atthezoo.ebrl: zip/atthezoo.zip
+	$(DP2) dtbook-to-ebraille \
+	  --source atthezoo.xml \
+	  --data $< \
+	  --epub-package true \
+	  --braille-code '(liblouis-table:"en-ueb-g2.ctb")' \
+	  --include-original-text false \
+	  --validation off \
+	  --output ebraille \
+	  --attach-stylesheet sbs.css
+
+# Multi-rendition english eBraille (braille + original text)
+ebraille-multi-rendition/result/atthezoo.ebrl: zip/atthezoo.zip
+	$(DP2) dtbook-to-ebraille \
+	  --source atthezoo.xml \
 	  --data $< \
 	  --epub-package true \
 	  --braille-code '(liblouis-table:"en-ueb-g2.ctb")' \

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-3//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-3.dtd">
+<dtbook version="2005-3" xml:lang="en-US" xmlns="http://www.daisy.org/z3986/2005/dtbook/">
+  <head>
+    <meta name="dc:Title" content="Max at the Zoo"/>
+    <meta name="dc:Creator" content="SBS Sample Book"/>
+    <meta name="dc:Subject" content="Children's fiction"/>
+    <meta name="dc:Description" content="A curious little monkey visits the zoo and meets five animals."/>
+    <meta name="dc:Publisher" content="SBS Schweizerische Bibliothek für Blinde, Seh- und Lesebehinderte"/>
+    <meta name="dc:Date" content="2026-06-04"/>
+    <meta name="dc:Type" content="Text"/>
+    <meta name="dc:Format" content="ANSI/NISO Z39.86-2005"/>
+    <meta name="dc:Identifier" content="sbs-atthezoo-2026-sample"/>
+    <meta name="dc:Language" content="en-US"/>
+    <meta name="dc:Rights" content="Sample document — public domain"/>
+    <meta name="dtb:uid" content="sbs-atthezoo-2026-sample"/>
+    <meta name="a11y:producer" content="Swiss Library for the Blind, Visually Impaired and Print Disabled"/>
+    <meta name="a11y:tactileGraphics" content="PNG"/>
+  </head>
+  <book>
+    <frontmatter>
+      <doctitle>Max at the Zoo</doctitle>
+      <docauthor>SBS Sample Book</docauthor>
+    </frontmatter>
+    <bodymatter id="bodymatter_0001">
+      <level1>
+        <pagenum page="normal" id="page1">1</pagenum>
+        <h1>Max at the Zoo</h1>
+
+        <p>Max was a little monkey who was curious about everything.</p>
+
+        <p>One sunny morning, his keeper Oliver said,
+          "Max, would you like to go to the zoo today?"</p>
+
+        <p>Max jumped up and down with excitement.
+          He loved the zoo!</p>
+
+        <p>They walked through the big gate and into the zoo.
+          The first animal they saw was very tall indeed.</p>
+
+        <pagenum page="normal" id="page2">2</pagenum>
+        <p>
+          <imggroup>
+            <img id="img_giraffe" src="g_giraffe.png" alt="A giraffe stretching its long neck up to eat leaves from the treetops"/>
+            <caption imgref="img_giraffe">The giraffe stretched its long neck up high to eat leaves from the tallest trees.</caption>
+          </imggroup>
+        </p>
+
+        <p>Max had never seen anything so tall.
+          He looked up and up and up.
+          Then he tried to stretch his own neck tall, too.
+          Oliver laughed.</p>
+
+        <pagenum page="normal" id="page3">3</pagenum>
+        <p>Next, they came to a sandy yard where a big brown animal
+          with two humps was eating hay.</p>
+
+        <p>
+          <imggroup>
+            <img id="img_camel" src="k_kamel.png" alt="A camel with two humps looking at the viewer with large sleepy eyes"/>
+            <caption imgref="img_camel">The camel looked at Max with large, sleepy eyes.</caption>
+          </imggroup>
+        </p>
+
+        <p>Max was curious.
+          What was under those humps?
+          Were they hollow?
+          Could he sit on top?</p>
+
+        <p>Before Oliver could say anything,
+          Max climbed over the fence.
+          But the zookeeper was fast!
+          She carried Max safely back out, shaking her head.</p>
+
+        <p>"No climbing, Max!" said Oliver.</p>
+
+        <pagenum page="normal" id="page4">4</pagenum>
+        <p>Then Max heard a loud splash.
+          He ran ahead to a big blue pool.</p>
+
+        <p>
+          <imggroup>
+            <img id="img_dolphin" src="d_delfin.png" alt="A dolphin leaping out of the water"/>
+            <caption imgref="img_dolphin">A gray dolphin leaped out of the water and flew through the air.</caption>
+          </imggroup>
+        </p>
+
+        <p>The dolphin dove back in and splashed everyone at the edge.
+          Max was soaked!
+          He shook the water from his fur and laughed.
+          The dolphin seemed to laugh too.</p>
+
+        <pagenum page="normal" id="page5">5</pagenum>
+        <p>In the petting zoo, a keeper was feeding small animals.
+          Max kneeled down and saw a round, prickly creature in the straw.</p>
+
+        <p>
+          <imggroup>
+            <img id="img_hedgehog" src="i_igel.png" alt="A small hedgehog curled up into a tight ball"/>
+            <caption imgref="img_hedgehog">The little hedgehog curled up into a tight ball.</caption>
+          </imggroup>
+        </p>
+
+        <p>Max reached out a finger very carefully.
+          The hedgehog uncurled just enough to sniff.
+          Its tiny nose tickled Max's finger.
+          Max giggled.
+          The keeper smiled.</p>
+
+        <pagenum page="normal" id="page6">6</pagenum>
+        <p>As the day grew late, Oliver said,
+          "One more stop, Max."</p>
+
+        <p>They walked into a dark building called the Night House.
+          Max held Oliver's hand tight.
+          Then, high above, something swooped through the air!</p>
+
+        <p>
+          <imggroup>
+            <img id="img_bat" src="f_fledermaus.png" alt="A bat gliding on wide wings in the dark"/>
+            <caption imgref="img_bat">A bat glided on its wide wings through the darkness.</caption>
+          </imggroup>
+        </p>
+
+        <p>More bats flew past, silent as shadows.
+          Max watched them go round and round in the cool dark air.
+          He was not afraid.
+          He was curious.</p>
+
+        <pagenum page="normal" id="page7">7</pagenum>
+        <p>"Time to go home," said Oliver.</p>
+
+        <p>Max waved goodbye to the bats, the hedgehog, the dolphin,
+          the camel, and the giraffe.
+          It had been a wonderful day at the zoo.</p>
+
+      </level1>
+    </bodymatter>
+  </book>
+</dtbook>
