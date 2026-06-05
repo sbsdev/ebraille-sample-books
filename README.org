@@ -4,7 +4,7 @@
 This project aims to provide a few comprehensive sample eBraille
 books.
 
-- DTBook Sample Book :: The first one an eBraille rendition of the
+- DTBook Sample Book :: An eBraille rendition of the
   [[https://github.com/sbsdev/epub-sample-book][DTBook Sample Book]], an artificial sample that contains all elements
   from the [[https://en.wikipedia.org/wiki/DTBook][DTBook XML]] schema
 - Kleinere Novellen :: A book by Johann Wolfgang von Goethe taken from
