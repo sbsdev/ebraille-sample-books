@@ -9,6 +9,10 @@ books.
   from the [[https://en.wikipedia.org/wiki/DTBook][DTBook XML]] schema
 - Kleinere Novellen :: A book by Johann Wolfgang von Goethe taken from
   [[https://www.gutenberg.org/][Projekt Gutenberg]]
+- Great Painters :: An English sample with images, originally from the
+  DAISY Consortium
+- Max at the Zoo :: A children's story about a curious little monkey
+  visiting the zoo, with tactile images and three levels of navigation
 
 * Building
 
